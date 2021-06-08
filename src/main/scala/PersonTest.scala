@@ -1,3 +1,5 @@
+import entities.Person
+
 object PersonTest {
 
   def main(args: Array[String]): Unit = {
@@ -9,6 +11,7 @@ object PersonTest {
     println(person)
     println("Person name: " + person.name)
     println("Person Designation: " + person.designation)
+    println("Person Salary: " + person.salary)
   }
 
 }

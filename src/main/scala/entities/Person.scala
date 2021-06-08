@@ -1,4 +1,4 @@
-package scala.classes
+package entities
 
 class Person {
   private var _name: String = ""

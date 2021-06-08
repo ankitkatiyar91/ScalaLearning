@@ -1,3 +1,5 @@
+import entities.User
+
 object UserTest {
   def main(args: Array[String]): Unit = {
     val user = new User("Ankit")
