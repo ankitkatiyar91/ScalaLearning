@@ -7,7 +7,8 @@ object PersonTest {
     person.name = "Raju"
 
     println(person)
-    println(person.name)
+    println("Person name: " + person.name)
+    println("Person Designation: " + person.designation)
   }
 
 }
