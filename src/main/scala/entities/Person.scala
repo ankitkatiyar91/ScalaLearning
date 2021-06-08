@@ -1,3 +1,5 @@
+package scala.classes
+
 class Person {
   private var _name: String = ""
   private var _salary: Int = 0
@@ -12,4 +14,6 @@ class Person {
     println("name setter called with value: " + name + " and current value is:" + _name)
     _name = name
   }
+
+  def salary = _salary
 }
